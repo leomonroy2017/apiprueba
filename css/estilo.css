@@ -1,0 +1,31 @@
+body {
+    background: #769BE8;
+}
+
+img:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 80%;
+    box-shadow: 0px 0px 7px 7px #ec731e;
+    -webkit-box-shadow: 0px 0px 7px 7px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.person {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+text {
+    color: #ec731e;
+}
+
+header nav {
+    background: rgba(123, 32, 241, 0.37);
+}
