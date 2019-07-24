@@ -1,8 +1,4 @@
-body {
-    background: #769BE8;
-}
-
-img:hover {
+.imgcon:hover {
     border-radius: 50%;
     -webkit-border-radius: 80%;
     box-shadow: 0px 0px 7px 7px #ec731e;
@@ -11,9 +7,14 @@ img:hover {
     -webkit-transform: rotate(360deg);
 }
 
+.imgmodal {
+    width: 100%;
+}
+
 .person {
     margin-top: 80px;
     margin-bottom: 20px;
+    border-color: black;
 }
 
 header {
@@ -27,5 +28,19 @@ text {
 }
 
 header nav {
-    background: rgba(123, 32, 241, 0.37);
+    background: rgba(42, 7, 243, 0.562);
+}
+
+.fo {
+    background: rgba(42, 7, 243, 0.562);
+}
+
+body {
+    scrollbar-face-color: #6685CA;
+    scrollbar-highlight-color: #6685CA;
+    scrollbar-shadow-color: #6685CA;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+    scrollbar-track-color: #E5E5E5;
+    scrollbar-drakshadow-color: #000000;
 }
